@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-app">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Chats</h2>
+
+        <div class="topics">
+            <span>All</span>
+            <span>Friends</span>
+            <span>Work</span>
+            <span>Groups</span>
+        </div>
+
+        <div class="chat-list">
+            <div class="chat active">
+                <div class="avatar"></div>
+                <div class="chat-info">
+                    <h4>Alexa</h4>
+                    <p>Hey, are you there ?</p>
+                </div>
+            </div>
+
+            <div class="chat">
+                <div class="avatar online"></div>
+                <div class="chat-info">
+                    <h4>Team Leader</h4>
+                    <p>Meeting at 6:45 PM</p>
+                </div>
+            </div>
+
+            <div class="chat">
+                <div class="avatar online"></div>
+                <div class="chat-info">
+                    <h4>Saran</h4>
+                    <p>Thank you!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-area">
+        <div class="chat-header">
+            <h3>Alexa</h3>
+            <span class="status">Online</span>
+        </div>
+
+        <div class="messages">
+            <div class="message received">Hi! How are you?</div>
+            <div class="message sent">I'm good, what about you?</div>
+            <div class="message received">Need help with the project.</div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" placeholder="Type a message...">
+            <button>➤</button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
